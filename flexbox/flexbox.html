@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="flexbox.css" />
+    <title>flexbox mastery</title>
+  </head>
+  <body>
+    <div class="first">
+      <h4>
+        the blue line which is the vertical lines represent the cross axis
+        whereas the red line horizontal line, represents the primary axis. it is
+        relevant to notice this is designed to be flex-direction:row;
+        <br />
+        The children will be positioned by default according to the following 2
+        rules: <br />
+        Primary axis: Children will be bunched up at the start of the container.
+        <br />
+        Cross axis: Children will stretch out to fill the entire container.
+      </h4>
+      <div class="wrapper">
+        <div class="box">
+          Flexbox is all about controlling the distribution of elements in a row
+          or column
+        </div>
+        <div class="box">
+          we can flip to a column with the flex-direction property
+        </div>
+        <div class="box">
+          With flex-direction: row, the primary axis runs horizontally, from
+          left to right. When we flip to flex-direction: column, the primary
+          axis runs vertically, from top to bottom.
+        </div>
+        <hr />
+      </div>
+      <hr class="primary" />
+    </div>
+
+    <div class="second-wrapper">
+      <h4>
+        the red line which is the vertical lines represent the cross axis
+        whereas the blue line which is the vertical line, represents the primary
+        axis. it is relevant to notice this is designed to be
+        flex-direction:column; <br />
+        The children will be positioned by default according to the following 2
+        rules: <br />
+        Primary axis: Children will be bunched up at the start of the container.
+        <br />
+        Cross axis: Children will stretch out to fill the entire container.
+      </h4>
+      <div class="second">
+        <div class="container">
+          <div class="items">
+            Flexbox is all about controlling the distribution of elements in a
+            row or column
+          </div>
+          <div class="items">
+            we can flip to a column with the flex-direction property
+          </div>
+          <div class="items">
+            With flex-direction: row, the primary axis runs horizontally, from
+            left to right. When we flip to flex-direction: column, the primary
+            axis runs vertically, from top to bottom.
+          </div>
+
+          <div class="items">
+            In Flexbox, everything is based on the primary axis.
+          </div>
+          <div class="items">
+            Every container takes two axis ie the primary axis and the cross
+            axis
+          </div>
+          <hr class="hr" />
+        </div>
+        <hr class="cross" />
+      </div>
+    </div>
+  </body>
+</html>

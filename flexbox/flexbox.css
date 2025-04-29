@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.first {
+  margin-bottom: 100px;
+  border: 2px solid black;
+  padding: 50px;
+  width: 100vw;
+}
+
+.wrapper {
+  width: 80%;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+.box {
+  flex: 1;
+  border: 1px solid black;
+}
+hr {
+  border: 5px solid blue;
+}
+.primary {
+  border: 5px solid red;
+  width: 80%;
+  margin-left: 0;
+}
+
+.second-wrapper {
+  padding: 50px;
+  width: 100wv;
+}
+.second {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  border: 2px solid black;
+}
+
+.container {
+  width: 90%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin: 20px;
+}
+.items {
+  border: 1px solid black;
+}
+.hr {
+  width: 100%;
+
+  border: 5px solid blue;
+}
+.cross {
+  margin-right: 20px;
+  width: 1%;
+  background-color: red;
+  border: none;
+}
