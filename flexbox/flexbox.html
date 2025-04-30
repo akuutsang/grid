@@ -7,6 +7,10 @@
     <title>flexbox mastery</title>
   </head>
   <body>
+    <header>
+      <h1>KEY NOTES FOR FLEXBOX</h1>
+      <h3>ILLUSTRATING AXIS IN FLEXBOX</h3>
+    </header>
     <div class="first">
       <h4>
         the blue line which is the vertical lines represent the cross axis
@@ -45,31 +49,44 @@
         flex-direction:column; <br />
         The children will be positioned by default according to the following 2
         rules: <br />
-        Primary axis: Children will be bunched up at the start of the container.
+        Primary axis:👉 Children will be bunched up at the start of the
+        container.
         <br />
-        Cross axis: Children will stretch out to fill the entire container.
+        Cross axis:👉 Children will stretch out to fill the entire container.
       </h4>
       <div class="second">
         <div class="container">
           <div class="items">
-            Flexbox is all about controlling the distribution of elements in a
-            row or column
+            👉 We can change how children are distributed along the primary axis
+            using the "justify-content: ;" property
           </div>
           <div class="items">
-            we can flip to a column with the flex-direction property
+            👉 When it comes to the primary axis, we don't generally think in
+            terms of aligning a single child. Instead, it's all about the
+            <i>distribution of the group.</i>
           </div>
           <div class="items">
-            With flex-direction: row, the primary axis runs horizontally, from
-            left to right. When we flip to flex-direction: column, the primary
-            axis runs vertically, from top to bottom.
+            👉 justify-content has about 12 options you can use to distribute
+            the children on the primary axis, which are: baseline, center, end,
+            first baseline, last baseline flex-start, flex-end, left, right,
+            safe, space around and space between
           </div>
 
           <div class="items">
-            In Flexbox, everything is based on the primary axis.
+            👉 We can bunch all the items up in a particular spot (with
+            flex-start, center, and flex-end), or we can spread them apart (with
+            space-between, space-around, and space-evenly). always remember,
+            justify-content is relevant to the <i>primary axis</i>.
           </div>
           <div class="items">
-            Every container takes two axis ie the primary axis and the cross
-            axis
+            👉 For the cross axis, things are a bit different. We use the
+            align-items property. align-items has all the 12 options
+            justify-content t is only relevant to the cross axis, it also has
+            some options justify-content doesnt have.
+          </div>
+          <div class="items">
+            👉 It is important to note, both justify-content and align-items,
+            should be in the parent container
           </div>
           <hr class="hr" />
         </div>
