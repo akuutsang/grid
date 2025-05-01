@@ -52,7 +52,7 @@ hr {
 
 .container {
   width: 90%;
-  height: 200px;
+  height: 300px;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
@@ -60,6 +60,10 @@ hr {
 }
 .items {
   border: 1px solid black;
+}
+
+.container .items:nth-child(7) {
+  align-self: center;
 }
 .hr {
   width: 100%;
