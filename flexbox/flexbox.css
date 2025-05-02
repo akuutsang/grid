@@ -1,7 +1,9 @@
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
+
 header {
   width: 100vw;
   height: 150px;
@@ -10,12 +12,25 @@ header {
   align-items: center;
   padding-bottom: 10px;
 }
+.first-Container {
+  height: 450px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .first {
-  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border: 2px solid black;
   padding: 10px 50px;
-  width: 100vw;
+  width: 50vw;
+  border-radius: 40px;
+}
+.h-four {
+  width: 100%;
 }
 
 .wrapper {
@@ -35,19 +50,32 @@ hr {
 }
 .primary {
   border: 5px solid red;
-  width: 80%;
+  width: 100%;
   margin-left: 0;
 }
 
 .second-wrapper {
-  padding: 50px;
-  width: 100wv;
+  width: 100vw;
+  height: 850px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+.h-four {
+  width: 50vw;
+  padding: 20px;
+  border-radius: 20px;
+}
+
 .second {
+  height: 550px;
   display: flex;
   flex-direction: row;
-  width: 90%;
+  width: 70%;
   border: 2px solid black;
+  border-radius: 50px;
 }
 
 .container {
@@ -75,4 +103,44 @@ hr {
   width: 1%;
   background-color: red;
   border: none;
+}
+.pointers {
+  border: 2px solid black;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.third-wrapper {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.sub-head {
+  width: 50%;
+}
+.second-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.section-two {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  border: 2px solid black;
+  margin: 10px;
+  padding: 10px;
+}
+
+.para-one {
 }
